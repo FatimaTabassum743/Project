@@ -1,0 +1,184 @@
+/* === COLOR SCHEME OPTIONS === */
+/* Uncomment the scheme you want to use and comment out the others */
+
+/* === SCHEME 1: MODERN BLUE-PURPLE (CURRENT) === */
+:root {
+    --primary: #667eea;
+    --secondary: #764ba2;
+    --accent: #f093fb;
+    --accent-2: #4facfe;
+    --bg-light: #f8fafc;
+    --bg-dark: #0f172a;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-gradient-2: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --bg-gradient-3: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --text-dark: #1e293b;
+    --text-light: #ffffff;
+    --text-muted: #64748b;
+    --text-accent: #667eea;
+    --shadow-light: rgba(102, 126, 234, 0.1);
+    --shadow-medium: rgba(102, 126, 234, 0.2);
+    --shadow-dark: rgba(102, 126, 234, 0.3);
+}
+
+/* === SCHEME 2: VIBRANT TEAL-ORANGE === */
+/*
+:root {
+    --primary: #00d4aa;
+    --secondary: #ff6b35;
+    --accent: #ffd93d;
+    --accent-2: #6c5ce7;
+    --bg-light: #f8fffe;
+    --bg-dark: #0a1929;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #00d4aa 0%, #ff6b35 100%);
+    --bg-gradient-2: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+    --bg-gradient-3: linear-gradient(135deg, #ff6b35 0%, #ff5252 100%);
+    --text-dark: #1a1a1a;
+    --text-light: #ffffff;
+    --text-muted: #6c757d;
+    --text-accent: #00d4aa;
+    --shadow-light: rgba(0, 212, 170, 0.1);
+    --shadow-medium: rgba(0, 212, 170, 0.2);
+    --shadow-dark: rgba(0, 212, 170, 0.3);
+}
+*/
+
+/* === SCHEME 3: ELEGANT DARK PURPLE === */
+/*
+:root {
+    --primary: #8b5cf6;
+    --secondary: #6366f1;
+    --accent: #ec4899;
+    --accent-2: #06b6d4;
+    --bg-light: #faf5ff;
+    --bg-dark: #1e1b4b;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+    --bg-gradient-2: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+    --bg-gradient-3: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    --text-dark: #1e1b4b;
+    --text-light: #ffffff;
+    --text-muted: #6b7280;
+    --text-accent: #8b5cf6;
+    --shadow-light: rgba(139, 92, 246, 0.1);
+    --shadow-medium: rgba(139, 92, 246, 0.2);
+    --shadow-dark: rgba(139, 92, 246, 0.3);
+}
+*/
+
+/* === SCHEME 4: WARM SUNSET === */
+/*
+:root {
+    --primary: #ff6b6b;
+    --secondary: #feca57;
+    --accent: #48dbfb;
+    --accent-2: #ff9ff3;
+    --bg-light: #fff9f0;
+    --bg-dark: #2c1810;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+    --bg-gradient-2: linear-gradient(135deg, #ff9ff3 0%, #ff6b6b 100%);
+    --bg-gradient-3: linear-gradient(135deg, #48dbfb 0%, #0abde3 100%);
+    --text-dark: #2c1810;
+    --text-light: #ffffff;
+    --text-muted: #8b7355;
+    --text-accent: #ff6b6b;
+    --shadow-light: rgba(255, 107, 107, 0.1);
+    --shadow-medium: rgba(255, 107, 107, 0.2);
+    --shadow-dark: rgba(255, 107, 107, 0.3);
+}
+*/
+
+/* === SCHEME 5: PROFESSIONAL GREEN === */
+/*
+:root {
+    --primary: #10b981;
+    --secondary: #059669;
+    --accent: #3b82f6;
+    --accent-2: #8b5cf6;
+    --bg-light: #f0fdf4;
+    --bg-dark: #064e3b;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    --bg-gradient-2: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    --bg-gradient-3: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    --text-dark: #064e3b;
+    --text-light: #ffffff;
+    --text-muted: #6b7280;
+    --text-accent: #10b981;
+    --shadow-light: rgba(16, 185, 129, 0.1);
+    --shadow-medium: rgba(16, 185, 129, 0.2);
+    --shadow-dark: rgba(16, 185, 129, 0.3);
+}
+*/
+
+/* === SCHEME 6: COOL OCEAN === */
+/*
+:root {
+    --primary: #0891b2;
+    --secondary: #0e7490;
+    --accent: #06b6d4;
+    --accent-2: #8b5cf6;
+    --bg-light: #f0f9ff;
+    --bg-dark: #0c4a6e;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+    --bg-gradient-2: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    --bg-gradient-3: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    --text-dark: #0c4a6e;
+    --text-light: #ffffff;
+    --text-muted: #64748b;
+    --text-accent: #0891b2;
+    --shadow-light: rgba(8, 145, 178, 0.1);
+    --shadow-medium: rgba(8, 145, 178, 0.2);
+    --shadow-dark: rgba(8, 145, 178, 0.3);
+}
+*/
+
+/* === SCHEME 7: BOLD RED-PINK === */
+/*
+:root {
+    --primary: #ef4444;
+    --secondary: #ec4899;
+    --accent: #8b5cf6;
+    --accent-2: #06b6d4;
+    --bg-light: #fef2f2;
+    --bg-dark: #450a0a;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #ef4444 0%, #ec4899 100%);
+    --bg-gradient-2: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    --bg-gradient-3: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    --text-dark: #450a0a;
+    --text-light: #ffffff;
+    --text-muted: #6b7280;
+    --text-accent: #ef4444;
+    --shadow-light: rgba(239, 68, 68, 0.1);
+    --shadow-medium: rgba(239, 68, 68, 0.2);
+    --shadow-dark: rgba(239, 68, 68, 0.3);
+}
+*/
+
+/* === SCHEME 8: NEUTRAL GRAY WITH ACCENTS === */
+/*
+:root {
+    --primary: #6b7280;
+    --secondary: #4b5563;
+    --accent: #3b82f6;
+    --accent-2: #10b981;
+    --bg-light: #f9fafb;
+    --bg-dark: #111827;
+    --bg-card: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+    --bg-gradient-2: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    --bg-gradient-3: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    --text-dark: #111827;
+    --text-light: #ffffff;
+    --text-muted: #6b7280;
+    --text-accent: #3b82f6;
+    --shadow-light: rgba(107, 114, 128, 0.1);
+    --shadow-medium: rgba(107, 114, 128, 0.2);
+    --shadow-dark: rgba(107, 114, 128, 0.3);
+}
+*/ 

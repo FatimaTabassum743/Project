@@ -190,6 +190,7 @@ body {
 }
 
 .hero-container {
+    width: 90vw;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -203,6 +204,13 @@ body {
 
 .hero-content {
     animation: slideInLeft 1s ease-out;
+    width: 55vw;
+}
+
+@media (max-width: 600px) {
+    .hero-content {
+        width: 78vw;
+    }
 }
 
 .hero-content h1 {
@@ -357,8 +365,8 @@ body {
 /* Hero Profile Image */
 .hero-profile-img {
     margin-top: 10px;
-    width: 400px;
-    height: 400px;
+    width: 280px;
+    height: 300px;
     border-radius: 20px;
     object-fit: cover;
     border: 4px solid rgba(255, 255, 255, 0.3);
